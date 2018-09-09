@@ -1,0 +1,30 @@
+<body onload="cargarIndex()">
+ <!-- Header Start -->
+ <header>
+    <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <nav >
+                    <div class="container-fluid row">
+                          <div class="col-md-8 col-sm-8">
+                            <a class="navbar-brand" href="/">
+                              <img id="imgLogo" src="../images/logo1.png" alt="Logo">
+                            </a>
+                          </div>
+                          <div class="col-md-2 col-sm-2">
+                            
+                            <a href="/iniciarsesion"><img id="imgLogo" width='100px' src="../images/login.png" alt="Logo"></a>
+                          </div>
+                    </div>
+                </nav>
+              </div>
+            </div>
+        </div>
+    </header><br><br><br>
+   <section id="feature">
+          <div class="row" id="listaralumnos">
+            
+          </div>
+     </section>
+      
+    </body>

@@ -1,0 +1,34 @@
+<body onload="cargarMenu()">
+    
+  <!--   Logo -->
+ 
+<div class="container">
+ <div class="row">
+      <div class="jumbotron col-md-6 col-sm-6">
+        <a href="/salir">
+          <img width='100px' src="images/logout.png" alt="Logo">
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-4">
+         <h1 id="nombre">#{nombre}</h1>
+      </div>
+  </div>
+</div>
+
+
+        <!-- section Start -->
+       <section id="feature">
+          <div class="row">
+            <div class="col-md-4 col-sm-4" >
+                <a href="/menuusuarios"><button id="btncrear">USUARIOS</button></a>
+            </div>
+            <div class="col-md-4 col-sm-4" >
+                <a href="/menualumnos"> <button id="btnleer">ALUMNOS</button></a>
+            </div>
+             <div class="col-md-4 col-sm-4" >
+             <a href="/menuexcursiones" id="btnExportar">EXCURSIONES</a>
+          </div>
+          </div>
+     </section>
+      
+    </body>

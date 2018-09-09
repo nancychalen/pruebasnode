@@ -1,0 +1,45 @@
+<body onload="cargarexcursionusuario()">
+    <header>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <a href="/">
+                      <img width='100px' src="images/logout.png" alt="Logo">
+                    </a>
+                </div>
+                 <div class="col-md-4 col-sm-4">
+                     <h1 id="nombre"></h1>
+                  </div>
+                <div class="col-md-4 col-sm-4">
+                    <a class="navbar-brand" href="/listarexcursionesUsuario" id="regresar"><img id="imgLogo" width='80px' src="../images/flecha.png" alt="Logo"></a>
+                 </div>
+                 
+               </div>
+              </div>
+    </header><!-- header close -->
+    <div class="container divExcursion">
+        <div class="recibirPortada row">
+            <div class="col-md-6 col-sm-6">
+                <img class="listaimg" id="portadaLeer" alt="" src="">
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <h1 id="tituloLeer"></h1>
+                <h2 id="descripcionLeer"></h2>
+                <h3 id="creditosLeer"></h3>
+            </div>
+            
+            
+        </div>
+        
+        <br>
+        <h1>PASOS</h1><br>
+        <div id="recibirPasos" class="row">
+            
+            
+        </div>
+                
+        
+    </div>
+    <div id="divAudiosEx"></div>
+
+</body>

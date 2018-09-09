@@ -1,0 +1,71 @@
+
+  <body onload="cargarEditar()">
+    <!--  -->
+   
+   
+ <header>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <a href="/">
+                      <img width='100px' src="images/logout.png" alt="Logo">
+                    </a>
+                </div>
+                 <div class="col-md-4 col-sm-4">
+                     <button id="guardareditar" class='btnGuardar'>EDITAR</button>
+                  </div>
+                <div class="col-md-4 col-sm-4">
+                    <a class="navbar-brand" href="/listarexcursionesUsuario" id="regresar"><img id="imgLogo" width='80px' src="../images/flecha.png" alt="Logo"></a>
+                 </div>
+                 
+               </div>
+              </div>
+    </header><!-- header close -->
+
+        
+     
+          <div class="container divCrear">
+           
+            <h1 class="txtportada">PORTADA</h1>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="col-md-3 col-sm-3">
+                        <label for="">Título</label><input id="titulo" type="text" value="">
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <label for="">Descripción</label><input id="descripcion" type="text" value="">
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <label for="">Créditos</label><input id="creditos" type="text" value="">
+                    </div>
+                </div>
+                <div id="divPortada" class="portada col-md-4 col-sm-4">PORTADA</div>
+                <div class="col-md-4 col-sm-4">
+                    <form enctype="multipart/form-data" class="formularioPortada">
+                        <input name="archivo" type="file" id="imgPortada" />
+                        <br />
+                        <br />
+                        <input type="button" class="añadirPortada" value="Añadir" />
+                        <br />
+                    </form>
+                    <!--div para visualizar mensajes-->
+                    <div class="messagesE"></div>
+                    <br />
+                    <br />
+                    <!--div para visualizar en el caso de imagen-->
+                    <div class="showImage"></div>
+                </div>
+            </div>
+            </div>
+            <div class="container">
+                <h1 class="txtportada">PASOS </h1> <br> <br> <br> 
+                <div id="escenas">
+                    
+                </div>
+            
+            <div class="divNV"><button id="nuevoVideo">+</button></div>
+            <br>
+            
+         </div>      
+        
+    </body>

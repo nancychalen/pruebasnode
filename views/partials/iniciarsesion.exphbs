@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="jumbotron">
+        <a href="/">
+            <img id="imgLogo" src="images/logo1.png" alt="Logo">
+        </a>
+    </div>
+</div>
+<section id="feature">
+    <div class="row divsesion">
+        <div class="col-sm-12">
+                <input id="usuario" type="text" value="" placeholder="USUARIO">
+            
+                <input id="pass" type="password" value="" placeholder="CONTRASEÑA">
+            
+                <button onclick="validarsesion()">INICIAR SESIÓN</button>
+           
+        </div>
+    </div>
+</section>
+ 

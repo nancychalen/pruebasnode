@@ -1,0 +1,29 @@
+<body onload="listarExcursion()">
+        <header>
+            <div class="container">
+              <div class="row">
+              <div class="col-md-4 col-sm-4">
+                    <a class="navbar-brand" href="/">
+                      <img id="imgLogo" src="../images/logo1.png" alt="Logo">
+                    </a>
+                 </div>
+                <div class="col-md-4 col-sm-4">
+                    <img id="avatar" src="" width="100px" alt="Logo">
+                    <h1 id="nombre"></h1>
+                 </div>
+                 
+                 <div class="col-md-4 col-sm-4">
+                    <h2>Puntaje</h2>
+                    <h1 id="puntaje"></h1>
+                 </div>
+               </div>
+              </div>
+        </header><!-- header close -->
+        
+        <div class="container">
+            <div class="row" id="listexcursion"> 
+                
+            </div>
+        </div>
+   
+</body>

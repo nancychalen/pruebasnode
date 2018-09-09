@@ -1,0 +1,28 @@
+<body onload="listarUsuarios()">
+        <header>
+            <div class="container">
+              <div class="row">
+                 <div class="col-md-4 col-sm-4">
+                    <a class="navbar-brand" href="/">
+                      <img id="imgLogo" src="../images/logo1.png" alt="Logo">
+                    </a>
+                 </div>
+                 <div class="col-md-2 col-sm-2">
+                    <h1 id="nombre"></h1>
+                 </div>
+                 <div class="col-md-2 col-sm-2">
+                    <a href="/menu">Regresar a menu
+                    </a>
+                  </div>
+               </div>
+              </div>
+        </header><!-- header close -->
+          <br>   <br>   <br>   <br>   <br>   <br>  <br>   <br> 
+          <a href="/nuevousuario">Nuevo Usuario</a>
+        <div class="container">
+            <div class="row" id="listarusuarios"> 
+                
+            </div>
+        </div>
+   
+</body>
